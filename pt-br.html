@@ -22,6 +22,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
             box-sizing: border-box;
+            position: relative; 
         }
 
         h1, h2, h3 {
@@ -75,10 +76,23 @@
         .experience h3 {
             margin-top: 20px;
         }
+
+        .profile-image {
+            position: absolute;
+            top: 10px; 
+            right: 20px;
+            width: 80px; 
+            height: 80px; 
+            border-radius: 50%; 
+            object-fit: cover; 
+            border: 2px solid #333; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <img src="images/me.jpeg" alt="Rodrigo Ferretti" class="profile-image">
         <h1>Rodrigo Ferretti</h1>
 
         <p>Engenheiro de Software na Stone</p>
